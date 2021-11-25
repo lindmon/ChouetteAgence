@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -11,12 +13,14 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    cursor: pointer;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -100,7 +104,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(252, 252, 244);
 }
 
 .d-bloc button:hover {
@@ -680,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -713,7 +717,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -833,7 +837,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -849,6 +853,8 @@ h4 {
         padding-right: 0;
     }
 }
+
+
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
@@ -1037,6 +1043,17 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+.quot-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact-text {
+    font-size: 32px;
+}
+
+.black-text {
+    color: #000000;
 }
 
 @media (max-width: 400px) {
