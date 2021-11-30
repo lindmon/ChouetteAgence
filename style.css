@@ -339,6 +339,8 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    outline: 3px solid orange;
+    
 }
 
 .navbar-toggle {
@@ -1054,6 +1056,15 @@ h4 {
 
 .black-text {
     color: #000000;
+}
+a:focus{
+    outline: 3px solid orange;
+}
+img:focus{
+    outline: 3px solid orange;
+}
+button:focus {
+    outline: 3px solid orange;
 }
 
 @media (max-width: 400px) {
