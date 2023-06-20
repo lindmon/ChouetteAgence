@@ -1,5 +1,4 @@
-# OC_projet4
-# Projet 4 de la formation OpenClassRooms "développeur web" : Optimisez un site web existant
+## Optimisez un site web existant
 Les objectifs du projet étaient:
 - Analyse de l’état actuel de SEO du site fourni. 
 * Amélioration du SEO du site.
